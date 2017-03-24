@@ -2,26 +2,25 @@
 //User types something to shout
 
 
+//1. create variable to capture user response to prompt
 
-//convert response to ALL CAPS + !
+var stringToShout = prompt("What should I shout?")
 
+//2. another string to hold the toUpperCase method
 
+var shout = stringToShout.toUpperCase();
+
+//3.  add exclamation at the end
+
+shout += "!!!";
 
 // Send message back to them
 
-
-
-
-
-
-
+alert(shout);
 
 
 
 //  LESSON NOTES.  String Properties and Methods
-
-
-
 
 
 //.length returns the number of characters inside a string
